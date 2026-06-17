@@ -1,0 +1,131 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+EXTERNPROTO "../protos/Obstacle.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5724658208250718 0.5717507284208723 0.5876937880710316 2.080045909916294
+  position 0.5318682953390004 -2.227445471648942 34.69349327022372
+}
+Pioneer3dx {
+  translation 0 0 0.0948465
+  controller "navigation_controller"
+  extensionSlot [
+    InertialUnit {
+    }
+    GPS {
+    }
+    Lidar {
+    }
+    Compass {
+    }
+  ]
+}
+Obstacle {
+  translation 0 3 0.73
+}
+Obstacle {
+  translation 0 -3 0.73
+  name "obstacle(1)"
+}
+Obstacle {
+  translation 3 0 0.73
+  name "obstacle(5)"
+}
+Obstacle {
+  translation -3 0 0.73
+  name "obstacle(2)"
+}
+Obstacle {
+  translation 3 3 0.73
+  name "obstacle(3)"
+}
+Obstacle {
+  translation 3 -3 0.73
+  name "obstacle(4)"
+}
+Obstacle {
+  translation -3 3 0.73
+  name "obstacle(6)"
+}
+Obstacle {
+  translation -3 -3 0.73
+  name "obstacle(7)"
+}
+Obstacle {
+  translation 0 6 0.73
+  name "obstacle(8)"
+}
+Obstacle {
+  translation 0 -6 0.73
+  name "obstacle(10)"
+}
+Obstacle {
+  translation 6 0 0.73
+  name "obstacle(11)"
+}
+Obstacle {
+  translation -6 0 0.73
+  name "obstacle(9)"
+}
+Obstacle {
+  translation 3 6 0.73
+  name "obstacle(12)"
+}
+Obstacle {
+  translation 3 -6 0.73
+  name "obstacle(13)"
+}
+Obstacle {
+  translation -3 6 0.73
+  name "obstacle(14)"
+}
+Obstacle {
+  translation -3 -6 0.73
+  name "obstacle(15)"
+}
+Obstacle {
+  translation 6 3 0.73
+  name "obstacle(16)"
+}
+Obstacle {
+  translation 6 -3 0.73
+  name "obstacle(17)"
+}
+Obstacle {
+  translation -6 3 0.73
+  name "obstacle(18)"
+}
+Obstacle {
+  translation -6 -3 0.73
+  name "obstacle(19)"
+}
+Obstacle {
+  translation 6 6 0.73
+  name "obstacle(20)"
+}
+Obstacle {
+  translation 6 -6 0.73
+  name "obstacle(21)"
+}
+Obstacle {
+  translation -6 6 0.73
+  name "obstacle(22)"
+}
+Obstacle {
+  translation -6 -6 0.73
+  name "obstacle(23)"
+}
+RectangleArena {
+  floorSize 15 15
+  wallHeight 1.5
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
